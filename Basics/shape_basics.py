@@ -1,7 +1,7 @@
 import pygame
 
 
-def draw(scr, bg):
+def draw(scr: pygame.surface.Surface, bg: tuple[int, int, int]):
     screen.fill(bg)
     pygame.draw.rect(scr, BLUE, (10, 20, 100, 50))
     # rect = Rect(10, 20, 100, 50)
@@ -21,7 +21,6 @@ GRAY = (127, 127, 127)
 pygame.init()
 screen = pygame.display.set_mode((640, 240))
 pygame.display.set_caption(f'Shapes')
-
 background = GRAY
 draw(screen, background)
 

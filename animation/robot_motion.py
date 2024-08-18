@@ -21,7 +21,7 @@ while running:
 
     screen.fill(BG_COLOR)
     counter = (counter + 1) % 3
-    robot_index = (robot_index + 1) % 8 if counter == 0 else robot_index
+    robot_index = (robot_index + 1) % len(robot_surf) if counter == 0 else robot_index
 
     if robot_rect.right <= WIDTH+50 and robot_rect.left >= -50:
         robot_rect.left += robot_SPEED * robot_forward

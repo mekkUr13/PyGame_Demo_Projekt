@@ -14,13 +14,6 @@ clock = pygame.time.Clock()
 # bird_surf_4 = pygame.image.load('../img/birds/bird4.png').convert_alpha()
 bird_surf = [pygame.image.load(f'../img/birds/bird{i}.png').convert_alpha() for i in range(1, 5)]
 
-'''
-Képek tárolása egyszerűbben:
-bird_surf = []
-for index in range(1, 5):
-    bird_surf.append((pygame.image.load(f'img/bird{index}.png')).convert_alpha())
-'''
-
 bird_index = 0
 bird_rect = bird_surf[bird_index].get_rect(midleft=(0, HEIGHT / 2))
 

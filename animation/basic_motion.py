@@ -1,7 +1,7 @@
 import pygame
 
 WIDTH, HEIGHT = 800, 400
-BG_COLOR = (140, 137, 246)
+BG_COLOR = (140, 233, 246)
 BIRD_SPEED = 5
 
 pygame.init()

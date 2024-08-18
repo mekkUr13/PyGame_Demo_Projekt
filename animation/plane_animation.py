@@ -2,7 +2,7 @@ import pygame
 from pygame.transform import rotozoom
 
 WIDTH, HEIGHT = 1200, 600
-BG_COLOR = (140, 137, 246)
+BG_COLOR = (140, 233, 246)
 BIRD_SPEED = 5
 
 pygame.init()

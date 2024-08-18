@@ -7,7 +7,7 @@ BIRD_SPEED = 5
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
-bird_surf = pygame.image.load('../img/bird1.png').convert_alpha()
+bird_surf = pygame.image.load('../img/birds/bird1.png').convert_alpha()
 bird_x = 0
 bird_y = 200
 

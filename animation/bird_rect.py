@@ -8,7 +8,7 @@ pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
-bird_surf = pygame.image.load('../img/bird1.png').convert_alpha()
+bird_surf = pygame.image.load('../img/birds/bird1.png').convert_alpha()
 bird_rect = bird_surf.get_rect(midleft=(0, HEIGHT / 2))
 bird_forward = 1
 
